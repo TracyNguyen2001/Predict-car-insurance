@@ -1,10 +1,10 @@
 # Attributes Affect Car Insurance Waive using SAS
 
 ## Project Overview
-This project focuses on predicting customer churn - a critical metric for many businesses, especially in the banking and telecom sectors. We use an XGBoost classifier, a powerful machine learning algorithm, to predict the likelihood of customers leaving a company.
+This project focuses on predicting the likelihood of customers waiving car insurance — a critical metric for insurance companies to manage risk and retain clients. We use an XGBoost classifier, a powerful machine learning algorithm, to analyze key attributes influencing customer decisions.
 
 ## Data Description
-The dataset used in this project contains various customer attributes, such as age, balance, and number of products used, along with a target variable indicating whether the customer has exited (churned) or not.
+The dataset used in this project contains various customer attributes, such as age, vehicle ownership, driving experience, past Duis, and credit score, along with a target variable indicating whether the customer waived their car insurance policy.
 
 ## Repository Contents
 - `train.csv`: Training dataset containing customer attributes and the target variable.
@@ -13,17 +13,20 @@ The dataset used in this project contains various customer attributes, such as a
 - README.md: Documentation of the project.
 
 ## Key Steps
-1. **Data Preprocessing**: Cleaning and encoding of the data, making it suitable for model training.
-2. **Exploratory Data Analysis (EDA)**: Analyzing the data to understand patterns and relationships.
-3. **Feature Engineering**: Selecting and transforming features for model training.
-4. **Model Training**: Building and training an XGBoost classifier.
-5. **Model Evaluation**: Evaluating the model's performance using accuracy and other metrics.
-6. **Feature Importance Analysis**: Understanding which features are most impactful in predicting churn.
-7. **Predictions**: Generating churn predictions on the test dataset.
-
+1. Data Preprocessing: Cleaning and encoding of the data, making it suitable for model training.
+2. Exploratory Data Analysis (EDA): Analyzing the data to understand patterns and relationships, such as the impact of driving experience and credit score on waivers.
+3. Feature Engineering: Selecting and transforming features for model training, such as categorizing credit scores or vehicle types.
+4. Model Training: Building and training an XGBoost classifier.
+5. Model Evaluation: Evaluating the model's performance using metrics like accuracy, precision, and recall.
+6. Feature Importance Analysis: Understanding which features are most impactful in predicting insurance waivers.
+7. Predictions: Generating churn predictions on the test dataset.
 ## Technologies Used
 - Python
 - Pandas
 - Matplotlib and Seaborn for visualizations
 - Scikit-learn for data preprocessing and model evaluation
 - XGBoost for the prediction model
+## Author 
+Yen Nguyen
+Linkedln: www.linkedin.com/in/tracyyennguyen
+
